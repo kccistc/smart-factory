@@ -20,7 +20,7 @@ def thread_cam1(q):
 
     # TODO: Load and initialize OpenVINO
 
-    # TODO: HW2 Open video clip resources/factory/conveyor.mp4 instead of camera device.
+    # TODO: HW2 Open video clip resources/conveyor.mp4 instead of camera device.
 
     while not FORCE_STOP:
         sleep(0.03)
@@ -58,7 +58,7 @@ def thread_cam2(q):
 
     # TODO: ColorDetector
 
-    # TODO: HW2 Open "resources/factory/conveyor.mp4" video clip
+    # TODO: HW2 Open "resources/conveyor.mp4" video clip
 
     while not FORCE_STOP:
         sleep(0.03)
