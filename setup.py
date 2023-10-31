@@ -22,7 +22,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
-    install_requires=["opencv-python", "opencv-contrib-python", "PyQt5"],
+    install_requires=["openvino"],
     entry_points={
         'gui_scripts': [
             'iotdemo-motion-detector = iotdemo.tuning.motion:trampoline',
